@@ -14,7 +14,8 @@
  *= require_self
  */
 body {
-  background-color: #fafafa;
+  margin: 0 auto;
+  background-color: #b9b5b5;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
@@ -24,17 +25,24 @@ a {
 }
 
 .navbar-default {
-  background-color: #fff;
+  margin-top: 0px;
+  background-color: #FFFFFF;
   height: 54px;
 }
 .navbar-brand {
-  float: left;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
 }
+
 .navbar-nav {
   list-style: none;
   display: flex;
-  justify-content: right;
-  align-content: right;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-top: -50px;
 }
 
 .navbar-nav li a {
@@ -42,7 +50,7 @@ a {
 }
 
 .navbar-container {
-  width: 640px;
+
   margin: 0 auto;
 }
 
@@ -54,8 +62,8 @@ a {
 }
 
 .post {
-  background-color: #fff;
-  border-color: #edeeee;
+  background-color: #FFFFFF;
+  border-color: #EDEEEE;
   border-style: solid;
   border-radius: 3px;
   border-width: 1px;
@@ -76,8 +84,8 @@ a {
 
 
 .image {
-  border-bottom: 1px solid #eeefef;
-  border-top: 1px solid #eeefef;
+  border-bottom: 1px solid #EEEFEF;
+  border-top: 1px solid #EEEFEF;
 }
 
 .caption {
@@ -90,9 +98,9 @@ a {
 .form-wrapper {
   width: 60%;
   margin: 20px auto;
-  background-color: #fff;
+  background-color: #FFFFFF;
   padding: 40px;
-  border: 1px solid #eeefef;
+  border: 1px solid #EEEFEF;
   border-radius: 3px;
 }
 

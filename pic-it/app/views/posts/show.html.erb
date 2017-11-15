@@ -5,16 +5,17 @@
         Kin
       </div>
     </div>
-    <div class="image center-block">
+    <div class="image">
       <%= image_tag @post.image.url(:medium) %>
     </div>
     <p class="caption">
       <%= @post.caption %>
     </p>
     <div class="text-center">
-      <%= link_to "Cancel", posts_path %>
-      <%= link_to "Edit Post", edit_post_path(@post) %>
+      <%= link_to "Cancel", posts_path %> &nbsp;|&nbsp;
+      <%= link_to "Edit Post", edit_post_path(@post) %> &nbsp;|&nbsp;
       <%= link_to "Delete Post", post_path(@post), method: :delete, data: { confirm: "Are you sure you want to delete this post?" } %>
     </div>
   </div>
 </div>
+
