@@ -13,10 +13,17 @@
  *= require_tree .
  *= require_self
  */
+html{
+  height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0 auto;
-  background-color: #b9b5b5;
+  background-color: #dbd6d6;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  
 }
 
 a {
@@ -24,8 +31,48 @@ a {
   text-decoration: none;
 }
 
-log-in {
-  border: 1px solid black;
+.login {
+  height: 100%;
+  width: 100vw;
+  border: none;
+  background-image: url('brooklynbridge.jpg');
+  background-size: cover;
+}
+
+.login-header {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  color: #125688;    
+}
+
+.login-box {
+  margin: 0 auto;
+  padding-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.register {
+  height: 100%;
+  width: 100vw;
+  border: none;
+  background-image: url('brooklynbridge.jpg');
+  background-size: cover;
+}
+
+.register-header {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 40px; 
+  color: #125688;  
+}
+
+.register-box {
+  margin: 0 auto;
+  padding-top: 30px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .navbar-default {
