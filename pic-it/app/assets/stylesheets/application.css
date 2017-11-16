@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+.name {
+  font-size: 20px;
+}
+
 .login {
   height: 100%;
   width: 100vw;
@@ -165,7 +169,6 @@ a {
   padding: 24px 24px;
   font-size: 15px;
   line-height: 18px;
-
 }
 
 .form-wrapper {
@@ -198,5 +201,9 @@ a {
   background-color: white;
   color: black;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.delete-button:hover {
+  background-color: rebeccapurple;
 }
