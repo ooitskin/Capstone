@@ -75,4 +75,5 @@ pickle-email-*.html
 # vim artifacts
 **.swp
 
+#AWS
 /config/environments/production.rb
