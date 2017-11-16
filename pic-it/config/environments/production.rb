@@ -4,8 +4,8 @@ Rails.application.configure do
   storage: :s3,
   s3_credentials: {
     bucket: ENV.fetch('pic-it'),
-    access_key_id: ENV.fetch('AKIAJDFA6FQRAW4C5DVA'),
-    secret_access_key: ENV.fetch('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'),
+    access_key_id: ENV.fetch('AKIAIEQDN3QT3JCJYDSQ'),
+    secret_access_key: ENV.fetch('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'),
     s3_region: ENV.fetch('US East (Ohio)'),
   }
 }
