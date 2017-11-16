@@ -123,6 +123,10 @@ a {
   margin: 0 auto;
 }
 
+.nav-buttons:hover {
+  color: rebeccapurple;
+}
+
 .posts-wrapper {
   padding-top: 40px;
   margin: 0 auto;
