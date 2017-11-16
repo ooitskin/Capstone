@@ -24,25 +24,40 @@ a {
   text-decoration: none;
 }
 
+log-in {
+  border: 1px solid black;
+}
+
 .navbar-default {
   margin-top: 0px;
   background-color: #FFFFFF;
-  height: 54px;
+  height: 60px;
+  width: 100%;
+  /* position: fixed;   */
 }
+
 .navbar-brand {
   font-family: 'Lobster', cursive;
   font-size: 50px;
-  display: flex;
-  justify-content: flex-start;
   padding-left: 10px;
+  display: flex;
+  flex-direction: row;  
+  justify-content: flex-end;
+  justify-content: space-between;  
+}
+
+.brand:hover {
+  color: rebeccapurple;
 }
 
 .navbar-nav {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;  
+  padding-right: 10px;
   list-style: none;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  padding-right: 10px;
-  padding-top: -50px;
 }
 
 .navbar-nav li a {
@@ -50,7 +65,6 @@ a {
 }
 
 .navbar-container {
-
   margin: 0 auto;
 }
 
@@ -71,7 +85,7 @@ a {
 }
 
 .post-head {
-  height: 64px;
+  height: 45px;
   padding: 14px 20px;
   color: #125688;
   font-size: 15px;
@@ -81,7 +95,6 @@ a {
 .name {
     display: block;
   }
-
 
 .image {
   border-bottom: 1px solid #EEEFEF;
@@ -100,8 +113,12 @@ a {
   margin: 20px auto;
   background-color: #FFFFFF;
   padding: 40px;
+
   border: 1px solid #EEEFEF;
   border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .edit-links {
