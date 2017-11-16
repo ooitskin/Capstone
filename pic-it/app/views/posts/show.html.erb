@@ -2,7 +2,7 @@
   <div class="post">
     <div class="post-head">
       <div class="name">
-        Kin
+        <%= @post.user.user_name %>
       </div>
     </div>
     <div class="image">
@@ -12,9 +12,14 @@
       <%= @post.caption %>
     </p>
     <div class="text-center">
-      <%= link_to "Cancel", posts_path %> &nbsp;|&nbsp;
-      <%= link_to "Edit Post", edit_post_path(@post) %> &nbsp;|&nbsp;
-      <%= link_to "Delete Post", post_path(@post), method: :delete, data: { confirm: "Are you sure you want to delete this post?" } %>
+      <% if @post.user.id == current_user.id %>
+        <%= link_to "Cancel", posts_path %> &nbsp;|&nbsp;
+        <%= link_to "Edit Post", edit_post_path(@post) %> &nbsp;|&nbsp;
+        <%= link_to "Delete Post", post_path(@post), method: :delete, data: { confirm: "Are you sure you want to delete this post?" } %>
+      <% else %>
+        <%= link_to "Go Back", posts_path %>
+      <% end %>
+        
     </div>
   </div>
 </div>
