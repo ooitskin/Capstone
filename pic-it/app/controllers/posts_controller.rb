@@ -10,6 +10,8 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
   end
 
+  # The build_association method returns a new object of the associated type. This object will be instantiated from the passed attributes, and the link through this object's foreign key will be set, but the associated object will not yet be saved.
+  # http://edgeguides.rubyonrails.org/association_basics.html
   def new
     @post = current_user.posts.build
   end
