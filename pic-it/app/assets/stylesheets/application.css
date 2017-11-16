@@ -75,6 +75,14 @@ a {
   text-align: center;
 }
 
+.btn-default {
+  background-color: #328fd1;
+  color: white;
+  font-size: 15px;
+  width: 130px;
+  height: 25px;
+}
+
 .navbar-default {
   margin-top: 0px;
   background-color: #FFFFFF;
