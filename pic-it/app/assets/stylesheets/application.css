@@ -38,6 +38,12 @@ a {
   font-size: 20px;
 }
 
+.name-show {
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
 .login {
   height: 100%;
   width: 100vw;
@@ -168,7 +174,7 @@ a {
 }
 
 .caption {
-  padding: 24px 24px;
+  /* padding: 24px 24px; */
   font-size: 15px;
   line-height: 18px;
 }
