@@ -4,7 +4,7 @@ class SearchesController < ApplicationController
 
   def results
     @query = params[:search][:query]
-    url = "https://api.unsplash.com/search/photos/?page=1&per_page=10&query=#{@query}&client_id=#{ENV["client_id"]}"
+    url = "https://api.unsplash.com/search/photos/?page=1&per_page=23&query=#{@query}&client_id=#{ENV["client_id"]}"
     results = HTTParty.get(url)
     parsed_results = JSON.parse(results.body)
     @results = parsed_results["results"].map do |result|

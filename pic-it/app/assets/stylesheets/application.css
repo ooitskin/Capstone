@@ -219,8 +219,8 @@ a {
 
 .search {
   color: #125688;
-  font-size: 25px;
-  margin-top: 7px;
+  font-size: 30px;
+  margin-top: 3px;
 }
 
 .search:hover {
@@ -248,4 +248,10 @@ a {
   height: 40px;
   width: 60px;
   font-size: 30px;
+}
+
+.result-caption {
+  width: 52%;
+  min-height: 25px;
+  font-size: 15px;
 }
