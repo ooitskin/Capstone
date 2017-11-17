@@ -1,0 +1,9 @@
+<h1>My Images</h1>
+<a href='/search/searches'> Back to Search </a>
+
+<% @searches.each do |search| %>
+<div>
+  <h3><%= search.description %></h3>
+  <%= image_tag search.image %>
+</div>
+<% end %>

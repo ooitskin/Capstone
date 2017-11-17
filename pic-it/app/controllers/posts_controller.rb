@@ -23,6 +23,7 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to posts_path
     else
+      puts @post.errors.messages
       render :new
     end
   end

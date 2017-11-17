@@ -19,11 +19,12 @@
                 <ul class="nav navbar-nav">
                   <% if user_signed_in? %>
                     <li>
-                      <%= link_to '#', class:'nav-buttons' do %>
-                        <i class="material-icons search">search</i>&nbsp;|&nbsp;
+                      <%= link_to search_searches_path, class:'nav-buttons' do %>
+                        <i class="material-icons search">search</i>
                       <% end %>
                     </li>
                     <li>
+                      &nbsp;|&nbsp;
                       <%= link_to "New Post", new_post_path, class:'nav-buttons' %>&nbsp;|&nbsp;
                     </li>
                     <li>
