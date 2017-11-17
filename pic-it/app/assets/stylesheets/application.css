@@ -38,6 +38,11 @@ a {
   font-size: 20px;
 }
 
+.commentor {
+  font-weight: bold;
+  color: #125688;
+}
+
 .name-show {
   font-size: 20px;
   padding-bottom: 20px;
@@ -171,6 +176,7 @@ a {
 .image {
   border-bottom: 1px solid #EEEFEF;
   border-top: 1px solid #EEEFEF;
+  text-align: center;
 }
 
 .caption {
@@ -198,6 +204,8 @@ a {
 }
 
 .text-center {
+  font-family: 'Lobster', cursive;  
+  color: #125688;  
   padding-bottom: 10px;
   display:flex;
   align-content: center;
@@ -212,6 +220,7 @@ a {
 .search {
   color: #125688;
   font-size: 25px;
+  margin-top: 7px;
 }
 
 .search:hover {
@@ -233,4 +242,10 @@ a {
   min-height: 50px;
   font-size: 17px;
   
+}
+
+.btn.btn-share {
+  height: 40px;
+  width: 60px;
+  font-size: 30px;
 }

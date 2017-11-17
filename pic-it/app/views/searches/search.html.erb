@@ -1,0 +1,14 @@
+<div class="posts-wrapper row">
+  <div class="post">
+    <div class="text-center">
+      <h1>Search for Pictures!</h1>
+    </div>
+  <div class="form-wrapper">
+    <%= form_for :search, url: search_searches_path do |f| %>
+      <%= f.text_field :query %>
+      <%= f.submit "Search" %>
+    <% end %>
+  </div>
+
+  </div>
+</div>

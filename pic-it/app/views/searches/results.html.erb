@@ -1,0 +1,21 @@
+<div class="posts-wrapper row">
+  <div class="post">
+    <div class="text-center">
+      <h1>Results for "<%= @query %>"</h1>
+    </div>
+
+      <% @results.each do |result| %>
+      <div>
+        <h3><%= result[:description] %></h3>
+      </div>
+      <div class="image">        
+        <%= image_tag result[:image] %>
+          <%= form_for :post, url: posts_path do |f| %>
+            <%= f.hidden_field :image, value: result[:image] %>
+            <%= f.submit "Share", class: 'btn btn-share'%>
+          <% end %>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div> 
