@@ -209,6 +209,15 @@ a {
   font-size: 15px;
 }
 
+.search {
+  color: #125688;
+  font-size: 25px;
+}
+
+.search:hover {
+  color: rebeccapurple;  
+}
+
 .comment {
   border: medium none;
   width: 100%;
