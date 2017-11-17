@@ -77,3 +77,7 @@ pickle-email-*.html
 
 #AWS
 /config/environments/production.rb
+
+/log/development.log
+
+.env
