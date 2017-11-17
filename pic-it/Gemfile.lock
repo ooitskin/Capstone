@@ -89,6 +89,9 @@ GEM
       thor (~> 0.14)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    glyphicons-rails (0.1.2)
+      sass (~> 3.3)
+      sass-rails
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -225,6 +228,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   figaro
+  glyphicons-rails (~> 0.1.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   material_icons
