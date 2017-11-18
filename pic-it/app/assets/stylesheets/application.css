@@ -1,5 +1,4 @@
 /*
- *= require material_icons
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -13,9 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ *= require material_icons
  */
 
- @import 'bootstrap';
+@import 'bootstrap';
+
 html{
   height: 100%;
 }
@@ -254,4 +255,8 @@ a {
   width: 52%;
   min-height: 25px;
   font-size: 15px;
+}
+
+.clear {
+  float: right;
 }

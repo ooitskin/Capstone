@@ -21,14 +21,14 @@
               <div class="comment">
                 <div>
                   <span class='commentor'><%= comment.user.user_name %>:</span>
-                  <%= comment.content %>
+                  <span><%= comment.content %></span>
                   <% if post.user.id == current_user.id %>                  
                     <%= link_to post_comment_path(post, comment), method: :delete, data: { confirm: "Are you sure you want to delete this comment?" } do %>
-                      <i class="material-icons">clear</i>
+                      <i class="material-icons clear">clear</i>
                     <% end %>
-                  <% elsif post.user.id != current_user.id && comment.user.user_name == current_user.id %>
+                  <% elsif comment.user.user_name == current_user.user_name %>
                     <%= link_to post_comment_path(post, comment), method: :delete, data: { confirm: "Are you sure you want to delete this comment?" } do %>
-                      <i class="material-icons">clear</i>
+                      <i class="material-icons clear">clear</i>
                     <% end %>
                   <% end %>
                 </div>
