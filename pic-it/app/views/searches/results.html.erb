@@ -12,7 +12,7 @@
         <%= image_tag result[:image] %>
           <%= form_for :post, url: posts_path do |f| %>
             <%= f.hidden_field :image, value: result[:image] %>
-            <%= f.text_field :caption, placeholder: 'Add a caption..', class: 'result-caption'%>
+             <%#= f.text_field :caption, placeholder: 'Add a caption..', class: 'result-caption'%>
             <%= f.submit "Share", class: 'btn btn-share'%>
           <% end %>
       <% end %>

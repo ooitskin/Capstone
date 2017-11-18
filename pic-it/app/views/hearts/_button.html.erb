@@ -1,5 +1,6 @@
 <% if current_user.heart?(post) %>
   <%= button_to "Unheart", unheart_path(post_id: post_id), remote: true, method: :delete  %>
 <% else %>
-  <%= button_to "Heart", heart_path(id: post), remote: true  %>
+  <%= button_to heart_path(id: post), remote: true  %>
+  <i class="material-icons">favorite_border</i>
 <% end %>
