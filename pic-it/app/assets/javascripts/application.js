@@ -20,11 +20,11 @@
 $(document).ready(function () {
   $('.delete-func').hide();
 
-  $('.commentor').mouseover(function () {
+  $('.commentors').mouseover(function () {
     $('.delete-func').show()
   })
   
-  $('.commentor').mouseout(function () {
+  $('.commentors').mouseout(function () {
     $('.delete-func').hide();
   })
 
