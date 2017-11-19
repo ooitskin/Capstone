@@ -28,14 +28,4 @@ $(document).ready(function () {
     $('.delete-func').hide();
   })
 
-
 });
-
-// $(document).ready(function () {
-//   $(".delete-func").hover(function () {
-//     $(".clear").show();
-//   });
-//   $(".delete-func").mouseover(function () {
-//     $(".clear").show();
-//   });
-// });
