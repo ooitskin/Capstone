@@ -258,5 +258,5 @@ a {
 }
 
 .clear {
-  float: right;
+  position: absolute;
 }

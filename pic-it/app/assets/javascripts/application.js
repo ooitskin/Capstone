@@ -13,3 +13,29 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+//= require jquery
+//= require jquery_ujs
+
+
+$(document).ready(function () {
+  $('.delete-func').hide();
+
+  $('.commentor').mouseover(function () {
+    $('.delete-func').show()
+  })
+  
+  $('.commentor').mouseout(function () {
+    $('.delete-func').hide();
+  })
+
+
+});
+
+// $(document).ready(function () {
+//   $(".delete-func").hover(function () {
+//     $(".clear").show();
+//   });
+//   $(".delete-func").mouseover(function () {
+//     $(".clear").show();
+//   });
+// });
