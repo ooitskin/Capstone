@@ -33,6 +33,9 @@ Paperclip / Image Magick - https://github.com/thoughtbot/paperclip
 <br>
 Rails jQuery - https://github.com/rails/jquery-rails
 
+#### API used:
+Unsplash API - https://unsplash.com/developers
+
 #### User Stories:
 As a user, I want to be able to upload an image. As a user, I want to be able to comment on other user's posts. As a user, I want to be able to 'like' a post. As a user, I want to be able to search for an image and share it. As a user, I want to be able to edit my posts or delete them. As a user, I want to be able to delete a comment. 
 
