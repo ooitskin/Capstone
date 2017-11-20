@@ -6,6 +6,7 @@
   <div class="form-wrapper">
     <%= form_for :search, url: search_searches_path do |f| %>
       <%= f.text_field :query, placeholder: 'keyword' %>
+      <br>
       <%= f.submit "Search", class: 'btn btn-search' %>
     <% end %>
   </div>

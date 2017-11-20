@@ -72,6 +72,14 @@ a {
   text-align: center;
 }
 
+#user_email, #user_user_name, #user_password, #user_password_confirmation {
+  width: 200px;
+  min-height: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .register {
   height: 100%;
   width: 100vw;
@@ -228,6 +236,12 @@ a {
   color: rebeccapurple;  
 }
 
+#search_query, #post_caption {
+  width: 200px;
+  min-height: 20px;
+  font-size: 15px;
+}
+
 .comment {
   border: medium none;
   width: 100%;
@@ -262,6 +276,7 @@ a {
 }
 
 .btn-search {
+  text-align: center;
   width: 75px;
   min-height: 21px;
   font-size: 13px;
