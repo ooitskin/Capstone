@@ -17,15 +17,20 @@ Then run ```rails s``` to run the server.
 
 #### Technologies used:
 ![alt text](https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/158/Ruby_on_Rails_2-512.png)
-Ruby on Rails.
 
 #### Gems used:
 Acts As Voteable - https://github.com/ryanto/acts_as_votable
+<br>
 BCrypt - https://github.com/codahale/bcrypt-ruby
+<br>
 Devise - https://github.com/plataformatec/devise
+<br>
 HTTparty - https://github.com/jnunemaker/httparty
+<br>
 Material Icons - https://github.com/Angelmmiguel/material_icons
+<br>
 Paperclip / Image Magick - https://github.com/thoughtbot/paperclip
+<br>
 Rails jQuery - https://github.com/rails/jquery-rails
 
 #### User Stories:
@@ -33,16 +38,21 @@ As a user, I want to be able to upload an image. As a user, I want to be able to
 
 #### Original Wireframes:
 [Log in Page](https://wireframe.cc/uxJ0ru)
+<br>
 [Homepage](https://wireframe.cc/TvXRF2)
+<br>
 [Search Page](https://wireframe.cc/Vzp0qQ)
 
 #### Current Wireframes:
 Sign up page:
 ![alt text](https://i.imgur.com/F9jUWPml.png)
+<br>
 Log in page:
 ![alt text](https://i.imgur.com/6ikKy5Ml.png)
+<br>
 Homepage:
 ![alt text](https://i.imgur.com/6C2o2bxl.png)
+<br>
 Search page:
 ![alt text](https://i.imgur.com/iQiS5BLl.png)
 
