@@ -16,7 +16,7 @@ Then, in your terminal, run ```db:create```, ```db:migrate``` to create the data
 Then run ```rails s``` to run the server.
 
 #### Technologies used:
-![alt text](https://i.imgur.com/MiFzKn7l.png)
+![alt text](https://i.imgur.com/2vVJu3Dl.png)
 
 #### Gems used:
 Acts As Voteable - https://github.com/ryanto/acts_as_votable
