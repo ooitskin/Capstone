@@ -260,3 +260,15 @@ a {
 .clear {
   position: absolute;
 }
+
+.btn-search {
+  width: 75px;
+  min-height: 21px;
+  font-size: 13px;
+  color: #125688;
+}
+
+.btn-search:hover {
+  background-color: #125688;
+  color: white;
+}
