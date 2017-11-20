@@ -1,5 +1,5 @@
 #### Name: Pic-it
-[Pic-it App](#)
+[Pic-it App](https://pic-itt.herokuapp.com/users/sign_in)
 
 #### General Approach:
 I wanted to make a picture sharing application. So with that in mind, I drew out my wireframes that would contain what pages I would need in the application. I tried to go by my original wireframes, but of course, it didn't go as planned, but they are really similar to the current wireframe of the application. As I was planning the application, I was thinking of what features a user may want in this photo sharing app. The MVP of this project was to be able to have User Authentication working, a user can upload an image, the uploaded image will render on the main index page, and a show page that will render a single post when clicked. A simple CRUD app for the posts. Once that was up and running, I added the features that I may want to see in this app. 
