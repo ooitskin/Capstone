@@ -1,0 +1,383 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+
+ */
+
+
+@import 'bootstrap';
+
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0 auto;
+  background-color: #dbd6d6;
+  font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  
+}
+
+a {
+  color: #125688;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.commentor {
+  font-weight: bold;
+  color: #125688;
+}
+
+.name-show {
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.login {
+  height: 100%;
+  width: 100vw;
+  border: none;
+  background-image: url('brooklynbridge.jpg');
+  background-size: cover;
+}
+
+.login-header {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  color: #125688;    
+}
+
+.login-box {
+  margin: 0 auto;
+  padding-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#user_email, #user_user_name, #user_password, #user_password_confirmation {
+  width: 200px;
+  min-height: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.register {
+  height: 100%;
+  width: 100vw;
+  border: none;
+  background-image: url('brooklynbridge.jpg');
+  background-size: cover;
+}
+
+.register-header {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 40px; 
+  color: #125688;  
+}
+
+.register-box {
+  margin: 0 auto;
+  padding-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn-default {
+  background-color: #328fd1;
+  color: white;
+  font-size: 15px;
+  width: 130px;
+  height: 25px;
+}
+
+.navbar-default {
+  margin-top: 0px;
+  background-color: #FFFFFF;
+  height: 60px;
+  width: 100%;
+  /* position: fixed;   */
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;  
+  justify-content: flex-end;
+  justify-content: space-between;  
+}
+
+.brand:hover {
+  color: rebeccapurple;
+}
+
+.navbar-nav {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;  
+  padding-right: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar-nav li a {
+  color: #125688;
+}
+
+.navbar-container {
+  margin: 0 auto;
+}
+
+.nav-buttons:hover {
+  color: rebeccapurple;
+}
+
+.posts-wrapper {
+  padding-top: 40px;
+  margin: 0 auto;
+  max-width: 642px;
+  width: 100%;
+}
+
+.post {
+  background-color: #FFFFFF;
+  border-color: #EDEEEE;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  margin-bottom: 60px;
+}
+
+.post-head {
+  height: 45px;
+  padding: 14px 20px;
+  color: #125688;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.name {
+    display: block;
+  }
+
+.image {
+  border-bottom: 1px solid #EEEFEF;
+  border-top: 1px solid #EEEFEF;
+  text-align: center;
+}
+
+.caption {
+  /* padding: 24px 24px; */
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.form-wrapper {
+  width: 38%;
+  margin: 20px auto;
+  background-color: #FFFFFF;
+  padding: 40px;
+
+  border: 1px solid #EEEFEF;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.edit-links {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.text-center {
+  font-family: 'Lobster', cursive;  
+  color: #125688;  
+  padding-bottom: 10px;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.material-icons {
+  color: red;
+  font-size: 15px;
+}
+
+.search {
+  color: #125688;
+  font-size: 30px;
+  margin-top: 3px;
+}
+
+.search:hover {
+  color: rebeccapurple;  
+}
+
+#search_query, #post_caption {
+  width: 200px;
+  min-height: 20px;
+  font-size: 15px;
+}
+
+.comment {
+  border: medium none;
+  width: 100%;
+  color: #4B4F54;
+}
+
+.comment-form {
+  border-top: 1px solid gray;
+}
+
+.text-field {
+  width: 99%;
+  min-height: 50px;
+  font-size: 17px;
+  
+}
+
+.btn.btn-share {
+  height: 40px;
+  width: 60px;
+  font-size: 30px;
+}
+
+.result-caption {
+  width: 52%;
+  min-height: 25px;
+  font-size: 15px;
+}
+
+.clear {
+  position: absolute;
+}
+
+.btn-search {
+  text-align: center;
+  width: 75px;
+  min-height: 21px;
+  font-size: 13px;
+  color: #125688;
+}
+
+.btn-search:hover {
+  background-color: #125688;
+  color: white;
+}
+/*
+ * CSS File of Material icons.
+ * CSS code based on:
+ * https://google.github.io/material-design-icons/#icon-font-for-the-web
+ */
+
+
+
+
+
+
+/* Use the font */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/MaterialIcons-Regular-8c998b4a9c0acbb9fe5dd572c206a5a33fdd5ca2b58db87fc3b893beac85068d.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url('/assets/MaterialIcons-Regular-a87d66c91b2e7dc5530aef76c03bd6a3d25ea5826110bf4803b561b811cc8726.woff2') format('woff2'),
+       url('/assets/MaterialIcons-Regular-c4a1baec300d09e03a8380b85918267ee80faae8e00c6c56b48e2e74b1d9b38d.woff') format('woff'),
+       url('/assets/MaterialIcons-Regular-b7f4a3ab562048f28dd1fa691601bc43363a61d0f876d16d8316c52e4f32d696.ttf') format('truetype');
+}
+
+/* Base class */
+.material-icons,
+.mi {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18, .mi.md-18 { font-size: 18px; }
+.material-icons.md-24, .mi.md-24 { font-size: 24px; }
+.material-icons.md-36, .mi.md-36 { font-size: 36px; }
+.material-icons.md-48, .mi.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark, .mi.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive, .mi.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light, .mi.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive, .mi.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* Rules to rotate items */
+.material-icons.r90, .mi.r90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.material-icons.r180, .mi.r180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.material-icons.r270, .mi.r270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.material-icons.flip-horizontal, .mi.flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.material-icons.flip-vertical, .mi.flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
