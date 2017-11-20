@@ -14,7 +14,7 @@ Then, in your terminal, run ```db:create```, ```db:migrate``` to create the data
 Then run ```rails s``` to run the server.
 
 #### Technologies used:
-![alt text](https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/158/Ruby_on_Rails_2-512.png)
+![alt text](https://i.imgur.com/MiFzKn7l.png)
 
 #### Gems used:
 Acts As Voteable - https://github.com/ryanto/acts_as_votable
@@ -42,19 +42,21 @@ As a user, I want to be able to upload an image. As a user, I want to be able to
 [Search Page](https://wireframe.cc/Vzp0qQ)
 
 #### Current Wireframes:
-Sign up page:
+Sign up page:<br>
 ![alt text](https://i.imgur.com/F9jUWPml.png)
 <br>
-Log in page:
+Log in page:<br>
 ![alt text](https://i.imgur.com/6ikKy5Ml.png)
 <br>
-Homepage:
+Homepage:<br>
 ![alt text](https://i.imgur.com/6C2o2bxl.png)
 <br>
-Search page:
+Search page:<br>
 ![alt text](https://i.imgur.com/iQiS5BLl.png)
 
 #### Unsolved Problems/Major Hurdles:
 I didn't have many unsolved problems. I hit my MVP early during project week. After MVP, I just wanted to my app to be functional without giving errors and empty pages. 
+<br>
 There were a couple of reach goals that I wanted to meet, but could not figure out. I wanted to add A-Frame to the images. Aframe adds Augumented Reality/Virtual Reality to the images. It would make images responsive, for example, a user can drag the photo around, sort of like a panoramic photo. 
+<br>
 Another reach goal that I was not able to acheive was to add notifications where if another user 'hearts' your posts, the owner of the post would receive a notification.
