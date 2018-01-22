@@ -78,3 +78,9 @@ pickle-email-*.html
 /log/development.log
 
 .env
+
+Gemfile
+
+Gemfile.lock
+
+package.json
